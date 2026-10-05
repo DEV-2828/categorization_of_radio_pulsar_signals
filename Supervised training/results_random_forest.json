@@ -1,0 +1,53 @@
+{
+  "default threshold": {
+    "threshold": 0.5,
+    "recall": 0.9024390243902439,
+    "precision": 0.8283582089552238,
+    "f1": 0.8638132295719845,
+    "confusion_matrix": [
+      [
+        2393,
+        46
+      ],
+      [
+        24,
+        222
+      ]
+    ]
+  },
+  "tuned threshold": {
+    "threshold": 0.6428774342720849,
+    "recall": 0.8780487804878049,
+    "precision": 0.8709677419354839,
+    "f1": 0.8744939271255061,
+    "confusion_matrix": [
+      [
+        2407,
+        32
+      ],
+      [
+        30,
+        216
+      ]
+    ]
+  },
+  "pr_auc": 0.9317134320275654,
+  "roc_auc": 0.9778481118144515,
+  "best_params": {
+    "max_depth": 7.0,
+    "max_features": 0.5,
+    "min_samples_leaf": 6.0,
+    "n_estimators": 408.0
+  },
+  "cv_pr_auc": 0.9262553026938176,
+  "feature_importance": {
+    "ip_std": 0.013409023392876003,
+    "dmsnr_kurtosis": 0.013438662696661621,
+    "dmsnr_skew": 0.013632905254649956,
+    "dmsnr_mean": 0.021044709254321007,
+    "dmsnr_std": 0.07054265501290147,
+    "ip_mean": 0.14561758197510927,
+    "ip_skew": 0.17409668553540716,
+    "ip_kurtosis": 0.5482177768780735
+  }
+}
